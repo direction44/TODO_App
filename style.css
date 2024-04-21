@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /* Add this line */
+}
+#background{
+width: 100vw;
+height: 100vh;
+background-image:linear-gradient(to right bottom,#526c8e,#808ca9,#acaec4,#d4d3e0,#fbfafd);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container{
+    padding: 20px;
+    max-width:  400px;
+    border: solid whitesmoke 5px;
+    border-radius: 10px;
+    margin: auto;
+    max-height: auto;
+    position: relative;
+    top: 50px;
+    background-image: linear-gradient(to top,lightgrey 0%, lightgrey 1%,#e0e0e0 26%, #efefef 48%,#e9e9e9 75%,#bcbcbc 100%);
+    box-shadow:20px -25px 20px -20px rgba(0, 0, 0, 0.5),
+     25px 0px 20px -20px rgba(0, 0, 0, 0.5),
+     0px 25px 20px -20px rgba(0, 0, 0, 0.5),
+     -25px 20px 20px -20px rgba(0, 0, 0, 0.5);
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+input,
+input:focus {
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+}
+::placeholder{
+    color: #526c8e;
+}
+.listItem{
+    margin-top: 30px;
+}
+.listItem li{
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 5px;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+label{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
